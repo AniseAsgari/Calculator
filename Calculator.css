@@ -6,43 +6,59 @@
    font-family: Arial;
 }
 body{
-   background-color: #000000;
+   background-color: #fff;
 }
 .calc{
-   width: 400px;
+   background: #fff;
+    box-shadow: -1px 2px 18px 5px rgb(0 0 0 / 33%);
+    -webkit-box-shadow: -1px 2px 11px 0px rgb(0 0 0 / 25%);
+    -moz-box-shadow: -1px 2px 18px 5px rgba(0,0,0,0.33);
+    padding: 5px;
+    width: fit-content;
+    border-radius: 10px;
    margin: 100px auto;
 }
 .display{
-   color: #ffffff;
+    border-radius: 8px;
+    background: white;
+    height: fit-content;
+    margin: 13px;
+    padding-right: 10px;
+    box-shadow: -1px 2px 18px 4px rgb(0 0 0 / 11%) inset;
+    -webkit-box-shadow: -1px 2px 18px 4px rgb(0 0 0 / 11%) inset;
+    -moz-box-shadow: -1px 2px 18px 4px rgba(0 0 0 / 11%) inset;
+    border: 1px solid #a5a5a56b;
    text-align: right;
    font-size: 60px;
-   padding: 20px;
 }
 .keypad-table tr:first-child .key{
-   background-color: #a5a5a5;
+   background-color: #c4dcf9a6;
 }
 .keypad-table tr:first-child .key:active{
-   background-color: #a5a5a590;
+   background-color: #a0b9d7bd;
 }
 .keypad-table tr td:last-child .key{
-   background-color: #ffa45c;
+   background-color: #f9d3b5c7;
 }
 .keypad-table tr td:last-child .key:active{
-   background-color: #ffa45ccc;
+   background-color: #f1ba8ec7;
 }
 .key{
-   width: 90px;
-   height: 90px;
-   border: 1px solid black;
-   text-align: center;
-   line-height: 90px;
-   border-radius: 90px;
-   margin: 5px;
-   background-color: #333333;
-   color: #ffffff;
-   cursor: pointer;
-   user-select: none;
+   box-shadow: -1px 2px 24px 7px rgb(0 0 0 / 13%) inset;
+    -webkit-box-shadow: -1px 2px 24px 7px rgb(0 0 0 / 13%) inset;
+    -moz-box-shadow: -1px 2px 24px 7px rgba(0 0 0 / 13%) inset;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #201e1e30;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 90px;
+    margin: 5px;
+    background-color: #f7f4f4;
+    color: #333333;
+    cursor: pointer;
+    user-select: none;
 }
 .key:active{
-   background-color: #33333390;
+   background-color: #a19f9f90;
 }
